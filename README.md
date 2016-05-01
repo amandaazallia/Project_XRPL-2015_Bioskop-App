@@ -3,7 +3,7 @@
 
 
 # Contributor
-
+----------------------------------
 https://github.com/amandaazallia
 ----------------------------------
 https://github.com/indahnuralifah
