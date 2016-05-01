@@ -1,0 +1,295 @@
+ a.link{
+	text-decoration:none;
+	}
+div#header{
+	width:100%;
+	height:200px;
+		}
+div#logo{
+		width:200px;
+		height:150px;
+		margin-left:40%;
+		font-family:"Edwardian Script ITC";
+		font-size:40pt;
+		color:black;
+		}
+#content-menu{
+		width:68%;
+		height:60px;	
+		background:#96281b;
+		padding-left:31%;
+		position:absolute;
+			}
+.dev{
+	font-family:"Segoe Ui";
+	font-size:11pt;
+	text-align:center;
+		}
+.isi-about-app{
+	font-size:10.7pt;
+	cursor:pointer;
+	}
+.nama{
+	width:200px;
+	height:35px;
+		}
+.email{
+	width:200px;
+	height:35px;
+		}
+.komentar{
+	width:200px;
+	height:100px;
+		}
+/* Overline From Center */
+.menu-child{
+float:left;
+	width: 110px;
+	text-align:center;
+	height:70px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color:white;
+	font-size:16pt;
+	font-family: "Agency Fb";
+	cursor: pointer;
+	border-top:2px ;
+	border:collapse;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.menu-child:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  background:white;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;      
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.menu-child:hover:before, .menu-child:focus:before, .menu-child:active:before {
+  left: 0;
+  right: 0;
+}
+.menu-child:active{
+	background:black;
+		}
+#layout{
+	width:600px;
+	height:375px;
+	background:#ecf0f1;	
+	margin-top:100px;
+	margin-left:300px;
+	position:absolute;
+	margin-bottom:5px;
+		}
+.footer{
+	width:100%;
+	height:70px;
+	position:relative;
+	margin-top:430px;
+		}
+.layout1{
+	width:1338px;
+	height:320px;
+	opacity:.9;
+	position:absolute;
+	margin-top:100px;
+		}
+
+.layout3{
+	width:320px;
+	height:350px;
+	background:white;
+	opacity:.9;
+	position:absolute;
+	margin-top:0px;
+	margin-left:170px;
+	font-size:13pt;
+	color:black;
+	font-family:"Segoe Ui";
+		}
+.judul2{
+	width:100%;
+	height:60px;
+	background:#2c3e50;
+	color:white;	
+	font-family:"Segoe Ui";
+	text-align:center;
+	font-size:17pt;
+		}
+.layout4{
+	width:340px;
+	height:350px;
+	background:white;
+	opacity:.9;
+	position:absolute;
+	margin-top:0px;
+	margin-left:500px;
+	font-family:"Segoe Ui";
+	text-decoration:none;
+	color:black;
+	text-align:center;
+			}
+.judul3{
+	width:100%;
+	height:60px;
+	background:#2c3e50;
+	color:white;
+	font-family:"Segoe Ui";
+	text-align:center;
+	font-size:17pt;
+		}
+.layout5{
+	width:340px;
+	height:350px;
+	background:white;
+	opacity:.9;
+	position:absolute;
+	margin-top:0px;
+	margin-left:850px;
+		}
+		
+.judul5{
+	width:100%;
+	height:60px;
+	background:#2c3e50;
+	color:white;
+	font-family:"Segoe Ui";
+	text-align:center;
+	font-size:17pt;
+		}
+.judul4{
+	width:100%;
+	height:60px;
+	background:#2c3e50;
+	color:white;
+	font-family:"Segoe Ui";
+	text-align:center;
+	font-size:17pt;
+		}
+.footer{	
+	margin-top:450px;
+		}
+.layout5{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.layout5:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+  background: black;
+  /* IE9 */
+  background: linear-gradient(225deg,black, black 50%, #cccccc 56%, white 80%);
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+}
+.layout5:hover:before, .layout5:focus:before, .layout5:active:before {
+  width: 25px;
+  height: 25px;
+}
+.layout3{
+  
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.layout3:before {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: black;
+  /* IE9 */
+   background: linear-gradient(135deg,black, black 50%, #cccccc 56%, white 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
+  /*For IE7-8-9*/
+  z-index: 1000;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+}
+.layout3:hover:before, .layout3:focus:before, .layout3:active:before {
+  width: 25px;
+  height: 25px;
+}
+/* Bubble Float Bottom */
+.layout4{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.layout4:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  left: calc(50% - 10px);
+  bottom: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #eeeeee transparent transparent transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#font{
+	font-size:40pt;
+	color:white;
+		}
+.layout4:hover, .layout4:focus, .layout4:active {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.layout4:hover:before, .layout4:focus:before, .layout4:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
