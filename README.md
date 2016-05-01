@@ -4,5 +4,6 @@
 
 # Contributor
 
-amandaazallia
-indahnuralifah
+https://github.com/amandaazallia
+----------------------------------
+https://github.com/indahnuralifah
